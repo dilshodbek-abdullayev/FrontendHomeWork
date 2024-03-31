@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;   
+    list-style: none;
+    text-decoration: none;
+    margin: auto;
+}
+header{
+    background-color: #6a4103;
+    width: 430px;
+    height: 30px;
+    
+}
+footer{
+    background-color: #6a4103;
+    width: 430px;
+    height: 50px;
+    
+}
+.Info{
+    background-color: #606581;
+    width: 430px;
+    height: 410px;
+}
+
+p,label{
+ 
+    color: #D4C32A;
+    margin: auto;
+
+}
+
+.fullname{
+    margin-left: 90px;
+}
+.date{
+    margin-left: 76px;
+}
+p{
+    font-size: large;
+    padding-top: 3px;
+    margin-left: 10px;
+}
+.back{
+    margin-right: 15px;
+}
+.Country{
+    margin-left: 110px;
+}
+.Gender{
+    margin-left: 115px;
+}
+.email{
+    margin-left: 120px;
+}
+.tel{
+    margin-left: 125px;
+}
+.password{
+    margin-left: 105px;
+}
+.Confirm{
+    margin-left:47px;
+}
+.check{
+    margin-left: 185px;
+}
+.Submit{
+    background-color: #62AF5E;
+    width: 80px;
+    color: white;
+    margin-top: 6px;
+    height: 38px;
+    margin-left: 240px;
+    border: 0;
+
+}
+.Cancel{
+    background-color: #D9544F;
+    width: 80px;
+    color: white;
+    border: 0;
+    margin-left:10px;
+    margin-top: 6px;
+    height: 38px;
+    
+}

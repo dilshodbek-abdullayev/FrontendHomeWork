@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <header>
+        <p>Sign Up</p>
+    </header>
+    <form action="">
+    <div class="Info">
+        <br>
+        <label class="fullname back" for="Name">First Name</label>
+        <input type="text" name="Enter" id="Name" placeholder="Enter First Name">
+        <br>
+        <br>
+        <label class="fullname back" for="surname">Last Name </label>
+        <input type="text" name="Enter" id="surname" placeholder="Enter Last Name">
+        <br>
+        <br>
+        <label class="date back" for="day">Date of Birth </label>
+        <input type="number" name="day" id="day" min="1" max="31" placeholder="Day">
+        <select name="month" id="month" >
+            <option value="">Month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+        <input class="minus" type="number" name="day" id="day" min="1900" max="2024" placeholder="Year">
+        <br>
+        <br>
+        <label class="Gender back"  for="Gender">Gender</label>
+        <input type="radio" name="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="male" id="female">
+        <label for="female">Female</label>
+       
+        <br>
+        <br>
+        <label class="Country back" for="Country">Country</label>
+        <select name="Countries" id="Country">
+            <option value="">Country</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Uzbekistan">Uzbekistan</option>
+            <option value="Russia">Russia</option>
+
+        </select>
+        <br>
+        <br>
+        <label class="email back" for="Email" >E-mail</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email">
+        <br>
+        <br>
+        <label class="tel back" for="tel" >Phone</label>
+        <input type="tel" name="tel" id="tel" placeholder="Enter Phone">
+        <br>
+        <br>
+        <label class="password back" for="password">Password</label>
+        <input type="password" name="password" id="password" >
+        <br>
+        <br>
+        <label class="Confirm back" for="Confirm">Confirm Password</label>
+        <input type="password" name="Confirm" id="Confirm">
+        <br>
+        <br>
+        <input class="check" type="checkbox" name="check" id="charset">
+        <label  for="check">I Agree to the Terms of use</label>
+    </div>
+    <footer>
+        <input class="Submit" type="submit" value="Submit"> <input class="Cancel" type="button" value="Cancel">
+    </footer>
+    </form>
+</body>
+</html>

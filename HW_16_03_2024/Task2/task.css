@@ -1,0 +1,8 @@
+Table{
+    width: 200px;
+}
+Table, th, td{
+    border: 1.9px solid black;
+    border-collapse: collapse;
+    text-align: top;
+}
