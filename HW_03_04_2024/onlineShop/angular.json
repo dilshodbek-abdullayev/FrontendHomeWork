@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "leetcode": {
+    "onlineShop": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/leetcode",
+            "outputPath": "dist/online-shop",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -57,10 +58,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "leetcode:build:production"
+              "buildTarget": "onlineShop:build:production"
             },
             "development": {
-              "buildTarget": "leetcode:build:development"
+              "buildTarget": "onlineShop:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +69,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "leetcode:build"
+            "buildTarget": "onlineShop:build"
           }
         },
         "test": {
